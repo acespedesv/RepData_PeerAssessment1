@@ -1,8 +1,8 @@
 ---
-title: "Coursera Project"
+title: "Template"
 author: "Adriana Cespedes"
 date: "February 25, 2018"
-output: md_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -120,5 +120,4 @@ library(lattice)
 ```{r, echo=FALSE}
 xyplot((steps_per_day$steps ~ steps_per_day$interval | steps_per_day$weekday), layout=c(1,2),type="l", xlab="Interval", ylab="Number of Steps")
 ```
-
 
